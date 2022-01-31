@@ -70,7 +70,7 @@ export const getStaticProps = async () => {
 				id: meetup._id.toString(),
 			})),
 		},
-		revalidate: 10, // Internally static generation
+		revalidate: 10, // Internally static generation (refreshes sit every 10 secs)
 	};
 };
 

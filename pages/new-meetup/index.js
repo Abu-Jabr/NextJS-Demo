@@ -18,8 +18,6 @@ const newMeetUpPage = () => {
 			});
 			const data = await response.json();
 
-			console.log(data);
-
 			router.push("/");
 		} catch (error) {
 			console.log(error.message);
